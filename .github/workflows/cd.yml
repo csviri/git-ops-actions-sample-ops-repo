@@ -12,6 +12,6 @@ jobs:
         run: ./deploy.sh
       - uses: csviri/git-ops-actions-promote@0.0.8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
 
