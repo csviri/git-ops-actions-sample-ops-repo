@@ -1,7 +1,7 @@
 name: Sample Ops Repo Skeleton
 on:
   push:
-    branches: [ dev, pre-prod, prod ]
+    branches: [dev,pre-prod,prod]
 
 jobs:
   build:
@@ -12,4 +12,4 @@ jobs:
         run: ./deploy.sh
       - uses: csviri/git-ops-actions-promote@0.0.8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_TOKEN }}
