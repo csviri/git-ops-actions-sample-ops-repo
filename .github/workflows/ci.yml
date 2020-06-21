@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: ./build.sh
+        run: ./deploy.sh
       - uses: csviri/git-ops-actions-promote@0.0.3
         with:
           token: atoken
