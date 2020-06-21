@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build
         run: ./deploy.sh
-      - uses: csviri/git-ops-actions-promote@0.0.3
+      - uses: csviri/git-ops-actions-promote@0.0.7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
