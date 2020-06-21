@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build
         run: ./build.sh
-      - uses: csviri/git-ops-actions-promote@0.0.1
+      - uses: csviri/git-ops-actions-promote@0.0.3
         with:
           token: atoken
 
