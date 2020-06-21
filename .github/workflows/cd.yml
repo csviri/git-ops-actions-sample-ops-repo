@@ -1,4 +1,4 @@
-name: Sample CI Skeleton
+name: Sample Ops Repo Skeleton
 on:
   push:
     branches: [ dev, pre-prod, prod ]
