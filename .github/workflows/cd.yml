@@ -13,5 +13,3 @@ jobs:
       - uses: csviri/git-ops-actions-promote@0.0.7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-
